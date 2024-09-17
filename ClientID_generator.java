@@ -10,7 +10,7 @@ public class clientIDGenerator {
         
         char[] characterSet = CHARSET_AZ_09.toCharArray();
         Random random = new SecureRandom();
-        //Creates an instance of 'SecireRandom' for generating random numbers
+        //Creates an instance of 'SecureRandom' for generating random numbers
         char[] result = new char[length];
         //Creates a charcter arry to hold the resulting random randomalphanumeric String
         
